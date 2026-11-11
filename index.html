@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Taha HQ</title>
+<meta name="description" content="Taha HQ is a personal assistant tool that reads its owner's own Google Calendar and Gmail, read-only, to prepare a daily briefing.">
+<style>
+  :root { --bg: #fbfaf7; --fg: #1d1d1b; --muted: #5d5b55; --line: #e4e1d8; --link: #1f5fa8; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #161615; --fg: #ecebe6; --muted: #a8a59c; --line: #2e2d2a; --link: #8ab8ec; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 42rem; margin: 0 auto; padding: 3.5rem 1rem 4rem; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 .5rem; letter-spacing: -.01em; }
+  .lede { color: var(--muted); font-size: 1.1rem; margin: 0 0 2.5rem; }
+  h2 { font-size: 1.1rem; margin: 2rem 0 .5rem; }
+  ul { padding-left: 1.2rem; }
+  a { color: var(--link); }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .95rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Taha HQ</h1>
+  <p class="lede">A personal assistant tool used by one person, its owner, Taha Ghula. It is not offered to anyone else.</p>
+
+  <h2>What it does</h2>
+  <p>Once an hour, Taha HQ reads the owner's own Google Calendar and Gmail with read-only access, and turns them into short notes for a private daily briefing: upcoming events, and emails that need a reply or have a deadline.</p>
+
+  <h2>What it can't do</h2>
+  <ul>
+    <li>It can't send, delete, label or change any email or calendar event. Google grants it read-only access.</li>
+    <li>It doesn't share anything publicly or with other people, and it shows no ads.</li>
+  </ul>
+
+  <h2>Privacy</h2>
+  <p>How Google data is handled is set out in the <a href="privacy.html">privacy policy</a>.</p>
+
+  <footer>Contact: <a href="https://github.com/tahaghula">github.com/tahaghula</a> · <a href="privacy.html">Privacy policy</a></footer>
+</main>
+</body>
+</html>
